@@ -16,7 +16,7 @@ In this section, you need to use the Airports dataset to build a visualization t
 3. On the Data tab, change **Row limit** to [dynamic ASSIGNED LIMIT].
 4. In the data section, make sure the Airports Count column is in descending order. Clicking the column reorders it. For visualization, make sure the type is set to Table.
 5. Click **RUN**.
-6. Click the gear icon in the top right and save the visualization as a Look. Title it: <dynamic Look1 title>.
+6. Click the gear icon in the top right and save the visualization as a Look. Title it: [dynamic Look1 title].
 
 ---
 
@@ -25,7 +25,7 @@ In this section, you need to use the Airports dataset to build a visualization t
  
 1. Click Explore > Airports.
 2. Click State and Facility Type Dimensions. Click Count Measure. Make sure the Airports Facility Type column is in descending sort order.
-3. In the left pane, hover the cursor over the Facility Type, click the Pivot data button. Set the row limit to <dynamic ASSIGNED LIMIT>.
+3. In the left pane, hover the cursor over the Facility Type, click the Pivot data button. Set the row limit to {dynamic ASSIGNED LIMIT}.
 4. In the data section, make sure the Airports Count column is in descending order. Clicking the column reorders it. For visualization, make sure the type is set to Table.
 5. Click RUN.
 6. Save the visualization as a Look. Title it: <dynamic Look2 title>
