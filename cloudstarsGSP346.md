@@ -13,10 +13,10 @@ In this section, you need to use the Airports dataset to build a visualization t
  
 1. Click  **Explore > Airports**.
 2. Click **City and State Dimensions**. Click **Count Measure**. Hover the cursor over the **Facility Type**, click the **Filter By Field** button (three lines), and set the **Airports Facility** type to is equal to ```HELIPORT```.
-3. On the Data tab, change **Row limit** to [dynamic ASSIGNED LIMIT].
+3. On the Data tab, change **Row limit** to **[dynamic ASSIGNED LIMIT]**.
 4. In the data section, make sure the Airports Count column is in descending order. Clicking the column reorders it. For visualization, make sure the type is set to Table.
 5. Click **RUN**.
-6. Click the gear icon in the top right and save the visualization as a Look. Title it: [dynamic Look1 title].
+6. Click the gear icon in the top right and save the visualization as a Look. Title it: **[dynamic Look1 title]**.
 
 ---
 
@@ -25,10 +25,10 @@ In this section, you need to use the Airports dataset to build a visualization t
  
 1. Click **Explore > Airports**.
 2. Click **State** and **Facility Type Dimensions**. Click **Count Measure**. Make sure the Airports **Facility Type** column is in descending sort order.
-3. In the left pane, hover the cursor over the **Facility Type**, click the **Pivot data** button. Set the row limit to [dynamic ASSIGNED LIMIT].
+3. In the left pane, hover the cursor over the **Facility Type**, click the **Pivot data** button. Set the row limit to **[dynamic ASSIGNED LIMIT]**.
 4. In the data section, make sure the Airports Count column is in descending order. Clicking the column reorders it. For visualization, make sure the type is set to Table.
 5. Click **RUN**.
-6. Save the visualization as a Look. Title it: [dynamic Look2 title]
+6. Save the visualization as a Look. Title it: **[dynamic Look2 title]**
 
 ---
 
@@ -56,30 +56,31 @@ ${flights.cancelled_count}/${flights.count}
 ## **Look #4: Smallest average distance**
 In this section, you need to use the Flights dataset to build a visualization that answers the following question: *What are the origin and destination airports with the smallest average distance between them?*
 
-Click **Explore > Flights**.
-Click **Flights > Origin and Destination Dimensions**.
-Click the **+ Add** button next to Custom Fields on the left toolbar. Select **Custom Measure**. For **Field to measure**, select **Average Distance** from the dropdown.
-Name The Custom Measure: **Average Distance (Miles)** and click **Save**.
-Hover over the Average Distance (Miles) Custom field you just created (in the left pane), and click the gear icon that appears on the right side and click. Set the filter to: Average Distance (Miles) **is greater than 0**.
-On the Data tab, change the Row limit to **[LAB ASSIGNED LIMIT]**. For visualization, make sure the type is set to Table.
-Click Run.
-Save this visualization as a Look and title it: <dynamic Look4 title>.
+1. Click **Explore > Flights**.
+2. Click **Flights > Origin and Destination Dimensions**.
+3. Click the **+ Add** button next to Custom Fields on the left toolbar. Select **Custom Measure**. For **Field to measure**, select **Average Distance** from the dropdown.
+4. Name The Custom Measure: **Average Distance (Miles)** and click **Save**.
+5. Hover over the Average Distance (Miles) Custom field you just created (in the left pane), and click the gear icon that appears on the right side and click. Set the filter to: Average Distance (Miles) **is greater than 0**.
+6. On the Data tab, change the Row limit to **[LAB ASSIGNED LIMIT]**. For visualization, make sure the type is set to Table.
+7. Click **Run**.
+8. Save this visualization as a Look and title it: **[dynamic Look4 title]**.
 
 ---
 
-Task 2. Merge results
-In this section, you need to use both the Flights and Airports datasets to build a visualization that answers the following question: Where are the busiest, joint-use major airports that have control towers and what are their associated codes?
-Click Flights Explore.
-Click Aircraft Origin > City , State, and Code Dimensions, and Flights > Count Measure. Set the Row Limit to 10. Click Run.
-Click the gear icon next to Run, then click Merge Results. Choose the Airports explore. Select Airports > City, State, and Code.
-Click the filter icon next to Control Tower (Yes / No). Set the filter to: is Yes.
-Repeat this filter process for Is Major and Joint Use.
-Click Run.
-Click Save. Confirm the merge, then click Run. Click visualization and choose a Bar Chart.
-Click the gear icon on the top right and then click Save to Dashboard. Title your visualization: Busiest, Major Joint-Use Airports with Control Towers.
-Click New Dashboard.
-New Dashboard named <dynamic Dashboard name>.
-Click Save to Dashboard.
+## **Task 2. Merge results**
+In this section, you need to use both the Flights and Airports datasets to build a visualization that answers the following question: *Where are the busiest, joint-use major airports that have control towers and what are their associated codes?*
+
+1. Click **Flights Explore**.
+2. Click **Aircraft Origin > City** , **State**, and **Code Dimensions**, and **Flights > Count Measure**. Set the **Row Limit** to 10. Click **Run**.
+3. Click the gear icon next to Run, then click **Merge Results**. Choose the Airports explore. Select **Airports > City**, **State**, and **Code**.
+4. Click the filter icon next to **Control Tower (Yes / No)**. Set the filter to: is **Yes**.
+5. Repeat this filter process for **Is Major** and **Joint Use**.
+6. Click **Run**.
+7. Click **Save**. Confirm the merge, then click **Run**. Click visualization and choose a **Bar Chart**.
+8. Click the gear icon on the top right and then click **Save to Dashboard**. Title your visualization: Busiest, Major Joint-Use Airports with Control Towers.
+9. Click **New Dashboard**.
+10. New Dashboard named **[dynamic Dashboard name]**.
+11. Click **Save to Dashboard**.
 
 ---
 
