@@ -7,13 +7,9 @@
 
 ## 🌐 **Cloud Stars Guide:**
 
-Open your **Google CloudShell** and run the following commands to kickstart your lab:
-
----
-
 ## **Task 1. Create looks**
-Look #1: Most heliports by state
-In this section, you need to use the Airports dataset to build a visualization that answers the following question: Which states and cities have the most airports with heliports?
+## **Look #1: Most heliports by state**
+In this section, you need to use the Airports dataset to build a visualization that answers the following question: *Which states and cities have the most airports with heliports?*
 Click  Explore > Airports.
 Click City and State Dimensions. Click Count Measure. Hover the cursor over the Facility Type, click the Filter By Field button (three lines), and set the Airports Facility type to is equal to HELIPORT.
 On the Data tab, change Row limit to <dynamic ASSIGNED LIMIT>.
