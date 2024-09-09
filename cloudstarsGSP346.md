@@ -6,11 +6,11 @@
 ---
 
 ## 🌐 **Cloud Stars Guide:**
----
+
 ## **Task 1. Create looks**
 ## **Look #1: Most heliports by state**
 In this section, you need to use the Airports dataset to build a visualization that answers the following question: *Which states and cities have the most airports with heliports?*
-
+ 
 1. Click  Explore > Airports.
 2. Click City and State Dimensions. Click Count Measure. Hover the cursor over the Facility Type, click the Filter By Field button (three lines), and set the Airports Facility type to is equal to HELIPORT.
 3. On the Data tab, change Row limit to <dynamic ASSIGNED LIMIT>.
