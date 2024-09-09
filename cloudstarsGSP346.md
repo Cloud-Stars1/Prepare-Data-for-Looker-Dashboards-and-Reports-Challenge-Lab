@@ -21,14 +21,14 @@ In this section, you need to use the Airports dataset to build a visualization t
 ---
 
 ## **Look #2: Facility type breakdown**
-In this section, you need to use the Airports dataset to build a visualization that answers the following question: What is the facility type breakdown for the states with the most airports?
+In this section, you need to use the Airports dataset to build a visualization that answers the following question: *What is the facility type breakdown for the states with the most airports?*
  
-Click Explore > Airports.
-Click State and Facility Type Dimensions. Click Count Measure. Make sure the Airports Facility Type column is in descending sort order.
-In the left pane, hover the cursor over the Facility Type, click the Pivot data button. Set the row limit to <dynamic ASSIGNED LIMIT>.
-In the data section, make sure the Airports Count column is in descending order. Clicking the column reorders it. For visualization, make sure the type is set to Table.
-Click RUN.
-Save the visualization as a Look. Title it: <dynamic Look2 title>
+1. Click Explore > Airports.
+2. Click State and Facility Type Dimensions. Click Count Measure. Make sure the Airports Facility Type column is in descending sort order.
+3. In the left pane, hover the cursor over the Facility Type, click the Pivot data button. Set the row limit to <dynamic ASSIGNED LIMIT>.
+4. In the data section, make sure the Airports Count column is in descending order. Clicking the column reorders it. For visualization, make sure the type is set to Table.
+5. Click RUN.
+6. Save the visualization as a Look. Title it: <dynamic Look2 title>
 
 ---
 
