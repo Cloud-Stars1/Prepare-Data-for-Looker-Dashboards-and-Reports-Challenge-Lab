@@ -13,9 +13,9 @@ In this section, you need to use the Airports dataset to build a visualization t
  
 1. Click  **Explore > Airports**.
 2. Click **City and State Dimensions**. Click **Count Measure**. Hover the cursor over the **Facility Type**, click the **Filter By Field** button (three lines), and set the **Airports Facility** type to is equal to ```HELIPORT```.
-3. On the Data tab, change Row limit to <dynamic ASSIGNED LIMIT>.
+3. On the Data tab, change **Row limit** to <dynamic ASSIGNED LIMIT>.
 4. In the data section, make sure the Airports Count column is in descending order. Clicking the column reorders it. For visualization, make sure the type is set to Table.
-5. Click RUN.
+5. Click **RUN**.
 6. Click the gear icon in the top right and save the visualization as a Look. Title it: <dynamic Look1 title>.
 
 ---
