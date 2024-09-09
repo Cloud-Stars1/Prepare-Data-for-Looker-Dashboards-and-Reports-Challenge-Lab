@@ -96,7 +96,7 @@ For this task, you need to add all of your created Looks to a Dashboard.
 
 ---
 
-## 🎉 **We hope you will be able to complete the lab with a 100% assessment score by following the above mentioned steps!**
+## 🎉 **Lab completed with a 100% assessment score!**
 
 You've successfully demonstrated your skills and determination by completing the lab. **Well done!**
 
