@@ -56,12 +56,12 @@ ${flights.cancelled_count}/${flights.count}
 ## **Look #4: Smallest average distance**
 In this section, you need to use the Flights dataset to build a visualization that answers the following question: *What are the origin and destination airports with the smallest average distance between them?*
 
-Click Explore >Flights.
-Click Flights > Origin and Destination Dimensions.
-Click the + Add button next to Custom Fields on the left toolbar. Select Custom Measure. For Field to measure, select Average Distance from the dropdown.
-Name The Custom Measure: Average Distance (Miles) and click Save.
-Hover over the Average Distance (Miles) Custom field you just created (in the left pane), and click the gear icon that appears on the right side and click. Set the filter to: Average Distance (Miles) is greater than 0.
-On the Data tab, change the Row limit to <LAB ASSIGNED LIMIT>. For visualization, make sure the type is set to Table.
+Click **Explore > Flights**.
+Click **Flights > Origin and Destination Dimensions**.
+Click the **+ Add** button next to Custom Fields on the left toolbar. Select **Custom Measure**. For **Field to measure**, select **Average Distance** from the dropdown.
+Name The Custom Measure: **Average Distance (Miles)** and click **Save**.
+Hover over the Average Distance (Miles) Custom field you just created (in the left pane), and click the gear icon that appears on the right side and click. Set the filter to: Average Distance (Miles) **is greater than 0**.
+On the Data tab, change the Row limit to **[LAB ASSIGNED LIMIT]**. For visualization, make sure the type is set to Table.
 Click Run.
 Save this visualization as a Look and title it: <dynamic Look4 title>.
 
