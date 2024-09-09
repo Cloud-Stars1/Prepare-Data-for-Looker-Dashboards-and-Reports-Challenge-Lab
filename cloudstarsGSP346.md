@@ -18,6 +18,8 @@ In this section, you need to use the Airports dataset to build a visualization t
 5. Click RUN.
 6. Click the gear icon in the top right and save the visualization as a Look. Title it: <dynamic Look1 title>.
 
+---
+
 ## **Look #2: Facility type breakdown**
 In this section, you need to use the Airports dataset to build a visualization that answers the following question: What is the facility type breakdown for the states with the most airports?
  
@@ -27,6 +29,9 @@ In the left pane, hover the cursor over the Facility Type, click the Pivot data 
 In the data section, make sure the Airports Count column is in descending order. Clicking the column reorders it. For visualization, make sure the type is set to Table.
 Click RUN.
 Save the visualization as a Look. Title it: <dynamic Look2 title>
+
+---
+
 Look #3: Percentage canceled
 In this section, you need to use the Flights dataset to build a visualization that answers the following question: What are the airports and states with the highest percentage of flight cancellations with over 10,000 flights?
 Click Explore >Flights.
@@ -45,6 +50,9 @@ rename it to Percentage of Flights Cancelled, Click Default Formatting to change
 In the data section, make sure the Percentage of Flights Cancelled column is in descending order. Clicking the column reorders it. Click the gear icon next to the Flights Count column and select Hide from Visualization. Repeat this for the Cancelled Count Column. In the visualization pane, make sure you're using a table.
 Click Run.
 Save the visualization as a Look. Title it: States and Cities with Highest Percentage of Cancellations: Flights over 10,000
+
+---
+
 Look #4: Smallest average distance
 In this section, you need to use the Flights dataset to build a visualization that answers the following question: What are the origin and destination airports with the smallest average distance between them?
 Click Explore >Flights.
@@ -55,6 +63,9 @@ Hover over the Average Distance (Miles) Custom field you just created (in the le
 On the Data tab, change the Row limit to <LAB ASSIGNED LIMIT>. For visualization, make sure the type is set to Table.
 Click Run.
 Save this visualization as a Look and title it: <dynamic Look4 title>.
+
+---
+
 Task 2. Merge results
 In this section, you need to use both the Flights and Airports datasets to build a visualization that answers the following question: Where are the busiest, joint-use major airports that have control towers and what are their associated codes?
 Click Flights Explore.
@@ -68,6 +79,9 @@ Click the gear icon on the top right and then click Save to Dashboard. Title you
 Click New Dashboard.
 New Dashboard named <dynamic Dashboard name>.
 Click Save to Dashboard.
+
+---
+
 Task 3. Save looks to a dashboard
 For this task, you need to add all of your created Looks to a Dashboard.
 Click the Looker Navigation menu page in the top-left corner. On the left, click Folder and select My folder you should have the Looks you created.
@@ -76,12 +90,6 @@ Click the look (you created).
 In the top right, next to Run / Edit, click the gear icon. Select Save > To an existing dashboard.
 In the Shared tab, in Developer Student, click the dashboard you created (Plane and Helicopter Rental Hub Data) and click Save to Dashboard.
 Complete this process for all of the Looks.
-
-
-
-
-
-
 
 ---
 
