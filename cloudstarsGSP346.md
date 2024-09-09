@@ -23,33 +23,34 @@ In this section, you need to use the Airports dataset to build a visualization t
 ## **Look #2: Facility type breakdown**
 In this section, you need to use the Airports dataset to build a visualization that answers the following question: *What is the facility type breakdown for the states with the most airports?*
  
-1. Click Explore > Airports.
-2. Click State and Facility Type Dimensions. Click Count Measure. Make sure the Airports Facility Type column is in descending sort order.
-3. In the left pane, hover the cursor over the Facility Type, click the Pivot data button. Set the row limit to {dynamic ASSIGNED LIMIT}.
+1. Click **Explore > Airports**.
+2. Click **State** and **Facility Type Dimensions**. Click **Count Measure**. Make sure the Airports **Facility Type** column is in descending sort order.
+3. In the left pane, hover the cursor over the **Facility Type**, click the **Pivot data** button. Set the row limit to [dynamic ASSIGNED LIMIT].
 4. In the data section, make sure the Airports Count column is in descending order. Clicking the column reorders it. For visualization, make sure the type is set to Table.
-5. Click RUN.
-6. Save the visualization as a Look. Title it: <dynamic Look2 title>
+5. Click **RUN**.
+6. Save the visualization as a Look. Title it: [dynamic Look2 title]
 
 ---
 
-Look #3: Percentage canceled
-In this section, you need to use the Flights dataset to build a visualization that answers the following question: What are the airports and states with the highest percentage of flight cancellations with over 10,000 flights?
-Click Explore >Flights.
-Click Aircraft Origin > City and State Dimensions.
-Under Flights Details, click Canceled Count Measure.
-Under Flights, click the Count Measure. Next, hover the cursor over it and click the filter button.
-Set the filter to: Flights Count is greater than 10,000.
-Click Run.
-Click the + Add button next to Custom Fields on the left toolbar. Select Table Calculation. For your table calculation, add the formula:
- 
+## **Look #3: Percentage canceled**
+In this section, you need to use the Flights dataset to build a visualization that answers the following question: *What are the airports and states with the highest percentage of flight cancellations with over 10,000 flights?*
+
+1. Click Explore >Flights.
+2. Click Aircraft Origin > City and State Dimensions.
+3. Under Flights Details, click Canceled Count Measure.
+4. Under Flights, click the Count Measure. Next, hover the cursor over it and click the filter button.
+5. Set the filter to: Flights Count is greater than 10,000.
+6. Click Run.
+7. Click the + Add button next to Custom Fields on the left toolbar. Select Table Calculation. For your table calculation, add the formula:
+```
 ${flights.cancelled_count}/${flights.count}
-
+```
  
-rename it to Percentage of Flights Cancelled, Click Default Formatting to change the format to Percent (3), and click Save.
+rename it to Percentage of Flights Cancelled, Click **Default Formatting** to change the format to **Percent (3)**, and click **Save**.
 
-In the data section, make sure the Percentage of Flights Cancelled column is in descending order. Clicking the column reorders it. Click the gear icon next to the Flights Count column and select Hide from Visualization. Repeat this for the Cancelled Count Column. In the visualization pane, make sure you're using a table.
-Click Run.
-Save the visualization as a Look. Title it: States and Cities with Highest Percentage of Cancellations: Flights over 10,000
+1. In the data section, make sure the **Percentage of Flights Cancelled** column is in descending order. Clicking the column reorders it. Click the gear icon next to the Flights Count column and select **Hide from Visualization**. Repeat this for the Cancelled Count Column. In the visualization pane, make sure you're using a table.
+2. Click **Run**.
+3. Save the visualization as a Look. Title it: States and Cities with Highest Percentage of Cancellations: Flights over 10,000
 
 ---
 
