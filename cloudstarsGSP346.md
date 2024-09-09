@@ -35,18 +35,17 @@ In this section, you need to use the Airports dataset to build a visualization t
 ## **Look #3: Percentage canceled**
 In this section, you need to use the Flights dataset to build a visualization that answers the following question: *What are the airports and states with the highest percentage of flight cancellations with over 10,000 flights?*
 
-1. Click Explore >Flights.
-2. Click Aircraft Origin > City and State Dimensions.
-3. Under Flights Details, click Canceled Count Measure.
-4. Under Flights, click the Count Measure. Next, hover the cursor over it and click the filter button.
+1. Click **Explore > Flights**.
+2. Click **Aircraft Origin > City and State Dimensions**.
+3. Under **Flights Details**, click **Canceled Count Measure**.
+4. Under **Flights**, click the **Count Measure**. Next, hover the cursor over it and click the filter button.
 5. Set the filter to: Flights Count is greater than 10,000.
-6. Click Run.
-7. Click the + Add button next to Custom Fields on the left toolbar. Select Table Calculation. For your table calculation, add the formula:
+6. Click **Run**.
+7. Click the **+ Add** button next to Custom Fields on the left toolbar. Select **Table Calculation**. For your table calculation, add the formula:
 ```
 ${flights.cancelled_count}/${flights.count}
 ```
- 
-rename it to Percentage of Flights Cancelled, Click **Default Formatting** to change the format to **Percent (3)**, and click **Save**.
+ rename it to Percentage of Flights Cancelled, Click **Default Formatting** to change the format to **Percent (3)**, and click **Save**.
 
 1. In the data section, make sure the **Percentage of Flights Cancelled** column is in descending order. Clicking the column reorders it. Click the gear icon next to the Flights Count column and select **Hide from Visualization**. Repeat this for the Cancelled Count Column. In the visualization pane, make sure you're using a table.
 2. Click **Run**.
@@ -54,8 +53,9 @@ rename it to Percentage of Flights Cancelled, Click **Default Formatting** to ch
 
 ---
 
-Look #4: Smallest average distance
-In this section, you need to use the Flights dataset to build a visualization that answers the following question: What are the origin and destination airports with the smallest average distance between them?
+## **Look #4: Smallest average distance**
+In this section, you need to use the Flights dataset to build a visualization that answers the following question: *What are the origin and destination airports with the smallest average distance between them?*
+
 Click Explore >Flights.
 Click Flights > Origin and Destination Dimensions.
 Click the + Add button next to Custom Fields on the left toolbar. Select Custom Measure. For Field to measure, select Average Distance from the dropdown.
