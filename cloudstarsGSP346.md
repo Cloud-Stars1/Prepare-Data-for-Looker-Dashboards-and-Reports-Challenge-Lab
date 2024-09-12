@@ -78,16 +78,17 @@ In this section, you need to use the Flights dataset to build a visualization th
 In this section, you need to use both the Flights and Airports datasets to build a visualization that answers the following question: *Where are the busiest, joint-use major airports that have control towers and what are their associated codes?*
 
 1. Click **Explore > Flights**.
-2. Click **Aircraft Origin > City** , **State**, and **Code Dimensions**, and **Flights > Count Measure**. Set the Row Limit to **10**. Click **Run**.
-3. Click the gear icon next to Run, then click **Merge Results**. Choose the Airports explore. Select **Airports > City**, **State**, and **Code**.
-4. Click the filter icon next to **Control Tower (Yes / No)**. Set the filter to: is **Yes**.
-5. Repeat this filter process for **Is Major** and **Joint Use**.
-6. Click **Run**.
-7. Click **Save**. Confirm the merge, then click **Run**. Click visualization and choose a **Bar Chart**.
-8. Click the gear icon on the top right and then click **Save to Dashboard**. Title your visualization: ```Busiest, Major Joint-Use Airports with Control Towers```.
-9. Click **New Dashboard**.
-10. New Dashboard named **[dynamic Dashboard name]**.
-11. Click **Save to Dashboard**.
+2. Click **Aircraft Origin > City** , **State**, and **Code Dimensions**, and **Flights > Count Measure**.
+3. Set the Row Limit to **10**. Click **Run**.
+4. Click the gear icon next to Run, then click **Merge Results**. Choose the Airports explore. Select **Airports > City**, **State**, and **Code**.
+5. Click the filter icon next to **Control Tower (Yes / No)**. Set the filter to: is **Yes**.
+6. Repeat this filter process for **Is Major** and **Joint Use**.
+7. Click **Run**.
+8. Click **Save**. Confirm the merge, then click **Run**. Click visualization and choose a **Bar Chart**.
+9. Click the gear icon on the top right and then click **Save to Dashboard**. Title your visualization: ```Busiest, Major Joint-Use Airports with Control Towers```.
+10. Click **New Dashboard**.
+11. New Dashboard named **[dynamic Dashboard name]**.
+12. Click **Save to Dashboard**.
 
 ---
 
