@@ -39,7 +39,7 @@ In this section, you need to use the Flights dataset to build a visualization th
 2. Click **Aircraft Origin > City and State Dimensions**.
 3. Under **Flights Details**, click **Canceled Count Measure**.
 4. Under **Flights**, click the **Count Measure**. Next, hover the cursor over it and click the filter button.
-5. Set the filter to: Flights Count is greater than 10,000.
+5. Set the filter to: Flights Count **is greater than 10,000**.
 6. Click **Run**.
 7. Click the **+ Add** button next to Custom Fields on the left toolbar. Select **Table Calculation**. For your table calculation, add the formula:
 ```
