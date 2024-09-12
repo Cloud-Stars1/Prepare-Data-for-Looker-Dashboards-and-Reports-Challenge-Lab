@@ -14,9 +14,10 @@ In this section, you need to use the Airports dataset to build a visualization t
 1. Click  **Explore > Airports**.
 2. Click **City and State Dimensions**. Click **Count Measure**. Hover the cursor over the **Facility Type**, click the **Filter By Field** button (three lines), and set the **Airports Facility** type to is equal to ```HELIPORT```.
 3. On the Data tab, change **Row limit** to **[dynamic ASSIGNED LIMIT]**.
-4. In the data section, make sure the Airports Count column is in descending order. Clicking the column reorders it. For visualization, make sure the type is set to Table.
-5. Click **RUN**.
-6. Click the gear icon in the top right and save the visualization as a Look. Title it: **[dynamic Look1 title]**.
+4. In the data section, make sure the Airports Count column is in **descending order**. Clicking the column reorders it.
+5. For visualization, make sure the type is set to **Table**.
+6. Click **RUN**.
+7. Click the gear icon in the top right and save the visualization as a Look. Title it: **[dynamic Look1 title]**.
 
 ---
 
@@ -26,9 +27,10 @@ In this section, you need to use the Airports dataset to build a visualization t
 1. Click **Explore > Airports**.
 2. Click **State** and **Facility Type Dimensions**. Click **Count Measure**. Make sure the Airports **Facility Type** column is in descending sort order.
 3. In the left pane, hover the cursor over the **Facility Type**, click the **Pivot data** button. Set the row limit to **[dynamic ASSIGNED LIMIT]**.
-4. In the data section, make sure the Airports Count column is in descending order. Clicking the column reorders it. For visualization, make sure the type is set to Table.
-5. Click **RUN**.
-6. Save the visualization as a Look. Title it: **[dynamic Look2 title]**
+4. In the data section, make sure the Airports Count column is in descending order. Clicking the column reorders it.
+5. For visualization, make sure the type is set to **Table**.
+6. Click **RUN**.
+7. Save the visualization as a Look. Title it: **[dynamic Look2 title]**
 
 ---
 
@@ -48,7 +50,7 @@ ${flights.cancelled_count}/${flights.count}
  rename it to **Percentage of Flights Cancelled**, Click **Default Formatting** to change the format to **Percent (3)**, and click **Save**.
 
 1. In the data section, make sure the **Percentage of Flights Cancelled** column is in descending order. Clicking the column reorders it. Click the gear icon next to the Flights Count column and select **Hide from Visualization**. Repeat this for the Cancelled Count Column.
-2. In the visualization pane, make sure you're using a **table**.
+2. In the visualization pane, make sure you're using a **Table**.
 3. Click **Run**.
 4. Save the visualization as a Look. Title it:
 ``` States and Cities with Highest Percentage of Cancellations: Flights over 10,000 ```
@@ -62,11 +64,12 @@ In this section, you need to use the Flights dataset to build a visualization th
 2. Click **Flights > Origin and Destination Dimensions**.
 3. Click the **+ Add** button next to Custom Fields on the left toolbar. Select **Custom Measure**. For **Field to measure**, select ```Average Distance``` from the dropdown.
 4. Name The Custom Measure: ```Average Distance (Miles)``` and click **Save**.
-5. Hover over the Average Distance (Miles) Custom field you just created (in the left pane), and click the gear icon that appears on the right side and click. Set the filter to: Average Distance (Miles) **is greater than 0**.
-6. On the Data tab, change the Row limit to **[LAB ASSIGNED LIMIT]**.
-7. For visualization, make sure the type is set to **Table**.
-8. Click **Run**.
-9. Save this visualization as a Look and title it: **[dynamic Look4 title]**.
+5. In the data section, make sure the Average Distance (Miles) column is in **ascending order**. Clicking twice the column reorders it.
+6. Hover over the Average Distance (Miles) Custom field you just created (in the left pane), and click the gear icon that appears on the right side and click. Set the filter to: Average Distance (Miles) **is greater than 0**.
+7. On the Data tab, change the Row limit to **[LAB ASSIGNED LIMIT]**.
+8. For visualization, make sure the type is set to **Table**.
+9. Click **Run**.
+10. Save this visualization as a Look and title it: **[dynamic Look4 title]**.
 
 ---
 
@@ -80,7 +83,7 @@ In this section, you need to use both the Flights and Airports datasets to build
 5. Repeat this filter process for **Is Major** and **Joint Use**.
 6. Click **Run**.
 7. Click **Save**. Confirm the merge, then click **Run**. Click visualization and choose a **Bar Chart**.
-8. Click the gear icon on the top right and then click **Save to Dashboard**. Title your visualization: Busiest, Major Joint-Use Airports with Control Towers.
+8. Click the gear icon on the top right and then click **Save to Dashboard**. Title your visualization: ```Busiest, Major Joint-Use Airports with Control Towers```.
 9. Click **New Dashboard**.
 10. New Dashboard named **[dynamic Dashboard name]**.
 11. Click **Save to Dashboard**.
