@@ -47,9 +47,10 @@ ${flights.cancelled_count}/${flights.count}
 ```
  rename it to **Percentage of Flights Cancelled**, Click **Default Formatting** to change the format to **Percent (3)**, and click **Save**.
 
-1. In the data section, make sure the **Percentage of Flights Cancelled** column is in descending order. Clicking the column reorders it. Click the gear icon next to the Flights Count column and select **Hide from Visualization**. Repeat this for the Cancelled Count Column. In the visualization pane, make sure you're using a table.
-2. Click **Run**.
-3. Save the visualization as a Look. Title it:
+1. In the data section, make sure the **Percentage of Flights Cancelled** column is in descending order. Clicking the column reorders it. Click the gear icon next to the Flights Count column and select **Hide from Visualization**. Repeat this for the Cancelled Count Column.
+2. In the visualization pane, make sure you're using a **table**.
+3. Click **Run**.
+4. Save the visualization as a Look. Title it:
 ``` States and Cities with Highest Percentage of Cancellations: Flights over 10,000 ```
 
 ---
