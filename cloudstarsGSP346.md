@@ -45,7 +45,7 @@ In this section, you need to use the Flights dataset to build a visualization th
 ```
 ${flights.cancelled_count}/${flights.count}
 ```
- rename it to Percentage of Flights Cancelled, Click **Default Formatting** to change the format to **Percent (3)**, and click **Save**.
+ rename it to **Percentage of Flights Cancelled**, Click **Default Formatting** to change the format to **Percent (3)**, and click **Save**.
 
 1. In the data section, make sure the **Percentage of Flights Cancelled** column is in descending order. Clicking the column reorders it. Click the gear icon next to the Flights Count column and select **Hide from Visualization**. Repeat this for the Cancelled Count Column. In the visualization pane, make sure you're using a table.
 2. Click **Run**.
