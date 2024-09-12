@@ -63,9 +63,10 @@ In this section, you need to use the Flights dataset to build a visualization th
 3. Click the **+ Add** button next to Custom Fields on the left toolbar. Select **Custom Measure**. For **Field to measure**, select ```Average Distance``` from the dropdown.
 4. Name The Custom Measure: ```Average Distance (Miles)``` and click **Save**.
 5. Hover over the Average Distance (Miles) Custom field you just created (in the left pane), and click the gear icon that appears on the right side and click. Set the filter to: Average Distance (Miles) **is greater than 0**.
-6. On the Data tab, change the Row limit to **[LAB ASSIGNED LIMIT]**. For visualization, make sure the type is set to Table.
-7. Click **Run**.
-8. Save this visualization as a Look and title it: **[dynamic Look4 title]**.
+6. On the Data tab, change the Row limit to **[LAB ASSIGNED LIMIT]**.
+7. For visualization, make sure the type is set to **Table**.
+8. Click **Run**.
+9. Save this visualization as a Look and title it: **[dynamic Look4 title]**.
 
 ---
 
