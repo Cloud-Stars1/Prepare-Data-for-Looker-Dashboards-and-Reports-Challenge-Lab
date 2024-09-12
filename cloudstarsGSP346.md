@@ -77,7 +77,7 @@ In this section, you need to use the Flights dataset to build a visualization th
 ## **Task 2. Merge results**
 In this section, you need to use both the Flights and Airports datasets to build a visualization that answers the following question: *Where are the busiest, joint-use major airports that have control towers and what are their associated codes?*
 
-1. Click **Flights Explore**.
+1. Click **Explore > Flights**.
 2. Click **Aircraft Origin > City** , **State**, and **Code Dimensions**, and **Flights > Count Measure**. Set the **Row Limit** to 10. Click **Run**.
 3. Click the gear icon next to Run, then click **Merge Results**. Choose the Airports explore. Select **Airports > City**, **State**, and **Code**.
 4. Click the filter icon next to **Control Tower (Yes / No)**. Set the filter to: is **Yes**.
