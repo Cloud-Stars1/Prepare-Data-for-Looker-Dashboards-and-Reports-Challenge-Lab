@@ -88,9 +88,9 @@ In this section, you need to use both the Flights and Airports datasets to build
 9. Click **Save**. Confirm the merge.
 10. Click visualization and choose a **Bar Chart**.
 11. Click **Run**.
-12. Click the gear icon on the top right and then click **Save to Dashboard**. Title your visualization: ```Busiest, Major Joint-Use Airports with Control Towers```.
+12. Click the gear icon on the top right and then click **Save to Dashboard**. Title your visualization: ```Busiest, Major Joint-Use Airports with Control Towers```
 13. Click **New Dashboard**.
-14. New Dashboard named **[dynamic Dashboard name]**.
+14. New Dashboard named ```Plane and Helicopter Rental Hub Data```
 15. Click **Save to Dashboard**.
 
 ---
@@ -102,7 +102,7 @@ For this task, you need to add all of your created Looks to a Dashboard.
 2. To add each Look to the Dashboard, follow these steps:
    1. Click the look (you created).
    2. In the top right, next to **Run** / **Edit**, click the gear icon. Select **Save > To an existing dashboard**.
-   3. In the Shared tab, in Developer Student, click the dashboard you created (Plane and Helicopter Rental Hub Data) and click **Save to Dashboard**.
+   3. In the Shared tab, in Developer Student, click the dashboard you created **Plane and Helicopter Rental Hub Data** and click **Save to Dashboard**.
 3. Complete this process for all of the Looks.
 
 ---
