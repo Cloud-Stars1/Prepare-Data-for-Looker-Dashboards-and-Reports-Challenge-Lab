@@ -25,7 +25,7 @@ In this section, you need to use the Airports dataset to build a visualization t
 In this section, you need to use the Airports dataset to build a visualization that answers the following question: *What is the facility type breakdown for the states with the most airports?*
  
 1. Click **Explore > Airports**.
-2. Click **State** and **Facility Type Dimensions**. Click **Count Measure**. Make sure the Airports **Facility Type** column is in descending sort order.
+2. Click **State** and **Facility Type Dimensions**. Click **Count Measure**. Make sure the Airports **Facility Type** column is in **descending** sort order.
 3. In the left pane, hover the cursor over the **Facility Type**, click the **Pivot data** button.
 4. Set the row limit to **[dynamic ASSIGNED LIMIT]**.
 5. In the data section, make sure the Airports Count column is in **descending order**. Clicking the column reorders it.
@@ -48,12 +48,13 @@ In this section, you need to use the Flights dataset to build a visualization th
 ```
 ${flights.cancelled_count}/${flights.count}
 ```
- rename it to **Percentage of Flights Cancelled**, Click **Default Formatting** to change the format to **Percent (3)**, and click **Save**.
+ rename it to ```Percentage of Flights Cancelled```, Click **Default Formatting** to change the format to **Percent (3)**, and click **Save**.
 
-1. In the data section, make sure the **Percentage of Flights Cancelled** column is in descending order. Clicking the column reorders it. Click the gear icon next to the Flights Count column and select **Hide from Visualization**. Repeat this for the Cancelled Count Column.
-2. In the visualization pane, make sure you're using a **Table**.
-3. Click **Run**.
-4. Save the visualization as a Look. Title it:
+1. In the data section, make sure the **Percentage of Flights Cancelled** column is in **descending order**. Clicking the column reorders it.
+2. Click the gear icon next to the Flights Count column and select **Hide from Visualization**. Repeat this for the **Cancelled Count Column**.
+3. In the visualization pane, make sure you're using a **Table**.
+4. Click **Run**.
+5. Save the visualization as a Look. Title it:
 ``` States and Cities with Highest Percentage of Cancellations: Flights over 10,000 ```
 
 ---
@@ -66,11 +67,12 @@ In this section, you need to use the Flights dataset to build a visualization th
 3. Click the **+ Add** button next to Custom Fields on the left toolbar. Select **Custom Measure**. For **Field to measure**, select ```Average Distance``` from the dropdown.
 4. Name The Custom Measure: ```Average Distance (Miles)``` and click **Save**.
 5. In the data section, make sure the Average Distance (Miles) column is in **ascending order**. Clicking twice the column reorders it.
-6. Hover over the Average Distance (Miles) Custom field you just created (in the left pane), and click the gear icon that appears on the right side and click. Set the filter to: Average Distance (Miles) **is greater than 0**.
-7. On the Data tab, change the Row limit to **[LAB ASSIGNED LIMIT]**.
-8. For visualization, make sure the type is set to **Table**.
-9. Click **Run**.
-10. Save this visualization as a Look and title it: **[dynamic Look4 title]**.
+6. Hover over the Average Distance (Miles) Custom field you just created (in the left pane), and click the gear icon that appears on the right side and click.
+7. Set the filter to: Average Distance (Miles) **is greater than 0**.
+8. On the Data tab, change the Row limit to **[LAB ASSIGNED LIMIT]**.
+9. For visualization, make sure the type is set to **Table**.
+10. Click **Run**.
+11. Save this visualization as a Look and title it: **[dynamic Look4 title]**.
 
 ---
 
