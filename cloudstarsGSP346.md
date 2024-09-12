@@ -80,15 +80,16 @@ In this section, you need to use both the Flights and Airports datasets to build
 1. Click **Explore > Flights**.
 2. Click **Aircraft Origin > City** , **State**, and **Code Dimensions**, and **Flights > Count Measure**.
 3. Set the Row Limit to **10**. Click **Run**.
-4. Click the gear icon next to Run, then click **Merge Results**. Choose the Airports explore. Select **Airports > City**, **State**, and **Code**.
-5. Click the filter icon next to **Control Tower (Yes / No)**. Set the filter to: is **Yes**.
-6. Repeat this filter process for **Is Major** and **Joint Use**.
-7. Click **Run**.
-8. Click **Save**. Confirm the merge, then click **Run**. Click visualization and choose a **Bar Chart**.
-9. Click the gear icon on the top right and then click **Save to Dashboard**. Title your visualization: ```Busiest, Major Joint-Use Airports with Control Towers```.
-10. Click **New Dashboard**.
-11. New Dashboard named **[dynamic Dashboard name]**.
-12. Click **Save to Dashboard**.
+4. Click the gear icon next to Run, then click **Merge Results**.
+5. Choose the **Explore > Airports**. Select **Airports > City**, **State**, and **Code**.
+6. Click the filter icon next to **Control Tower (Yes / No)**. Set the filter to: is **Yes**.
+7. Repeat this filter process for **Is Major** and **Joint Use**.
+8. Click **Run**.
+9. Click **Save**. Confirm the merge, then click **Run**. Click visualization and choose a **Bar Chart**.
+10. Click the gear icon on the top right and then click **Save to Dashboard**. Title your visualization: ```Busiest, Major Joint-Use Airports with Control Towers```.
+11. Click **New Dashboard**.
+12. New Dashboard named **[dynamic Dashboard name]**.
+13. Click **Save to Dashboard**.
 
 ---
 
