@@ -1,7 +1,7 @@
 
 # 🚀 Prepare Data for Looker Dashboards and Reports: Challenge Lab | GSP346
 
-### 🔗 **Solution Video:** [Watch Here ]()
+### 🔗 **Solution Video:** [Watch Here ](https://youtu.be/Cdh5T3JPQNs)
 
 ---
 
